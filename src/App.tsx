@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import "react-toastify/dist/ReactToastify.css";
+import {Routes, Route} from 'react-router-dom';
+import { Home } from './pages';
+import { AnimatePresence } from "framer-motion";
+import { ToastContainer } from "react-toastify";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AnimatePresence exitBeforeEnter>
+      <ToastContainer />
+      <div className="w-screen h-auto min-h-[100vh] flex flex-col bg-primary">
+        {/* Navbar */}
+        <main className="mt-16 md:mt-16 px-3 md:px-8 md:py-6 py-4 w-full h-auto">
+          {/* Routes */}
+          <Routes>
+            <Route path="/*" element={<Home />} />
+          </Routes>
+
+        </main>
+      </div>
+    </AnimatePresence>
   );
 }
 
