@@ -13,7 +13,7 @@ const Navbar = () => {
     setUser(null)
   }
   return (
-    <div className="w-full z-50  flex flex-col gap-3 md:gap-6 justify-center items-center backdrop-blur-md md:p-3 md:px-4 lg:p-6 lg:px-16">
+    <div className="w-full z-50  flex flex-col gap-3 md:gap-6 justify-center items-center bg-Overlay backdrop-blur-md md:p-3 md:px-4 lg:p-6 lg:px-16">
         {/* desktop & Tablet view */}
         <div className="flex w-full md:w-[80%] justify-between  py-2 px-5 md:p-0 items-center">
         <Link to={"/"}>
