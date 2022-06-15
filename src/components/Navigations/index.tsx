@@ -4,7 +4,7 @@ import { SiHomeadvisor } from "react-icons/si";
 import { motion } from "framer-motion";
 const Navigations = () => {
   return (
-    <div className="w-full md:w-[85%] flex gap-2 px-5 md:px-5 items-center md:justify-start overflow-x-scroll scrollbar-hidden">
+    <div className="w-full mx-10 md:w-[85%] flex gap-2 px-5 md:px-5 items-center md:justify-start overflow-x-scroll scrollbar-hidden">
       <motion.div
         whileTap={{ scale: 1.1 }}
         className="min-w-[150px]  h-8 md:h-10 px-2 md:px-5 text-blue-700 hover:text-white hover:bg-blue-700 transition-all ease-in-out duration-150 rounded-full border-[1.2px] border-blue-700 flex items-center justify-center gap-2 cursor-pointer "
