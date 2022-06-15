@@ -1,7 +1,10 @@
+import { Showcase } from "../../components"
 
 const Home = () => {
   return (
-    <div className="w-full">Home</div>
+    <div className="w-full flex flex-col items-center justify-center">
+      <Showcase />
+    </div>
   )
 }
 
