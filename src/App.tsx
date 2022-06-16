@@ -4,7 +4,7 @@ import {Routes, Route} from 'react-router-dom';
 import { Home } from './pages';
 import { AnimatePresence } from "framer-motion";
 import { ToastContainer } from "react-toastify";
-import { Navbar } from './components';
+import { Navbar, Showcase } from './components';
 function App() {
   return (
     <AnimatePresence exitBeforeEnter>
@@ -12,6 +12,7 @@ function App() {
       <div className="w-screen h-auto min-h-[100vh] flex flex-col bg-primary overflow-x-hidden">
         {/* Navbar */}
         <Navbar />
+        <Showcase />
         <main className="-mt-2 md:-mt-5  px-3 md:px-8 md:py-6 py-4 w-full h-auto">
           {/* Routes */}
           <Routes>
