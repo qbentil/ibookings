@@ -1,7 +1,7 @@
 
 const RoomOptions = ({options, optionsHandler}: {options: {adults:number, children:number, rooms:number}, optionsHandler: (type:string, increase:boolean) => void}) => {
   return (
-    <div className="absolute flex flex-col gap-3 right-18 px-5 py-2 top-[150px] md:top-[45px] bg-white text-gray-600 rounded-lg shadow-xl w-80">
+    <div className="absolute hidden group-hover:flex flex-col gap-3 right-18 px-5 py-2 top-[150px] md:top-[45px] bg-white text-gray-600 rounded-lg shadow-xl w-80">
     <div className="flex justify-between">
       <p>Adult</p>
       <div className=" flex justify-between gap-5 w-[38%]">
