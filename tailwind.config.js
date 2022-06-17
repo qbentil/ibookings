@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         Overlay: "rgba(256, 256, 256, 0.4)",
         headerColor: "#2e2e2e",
+        primary: "#0071c2",
       }
     },    
     fontFamily: {
