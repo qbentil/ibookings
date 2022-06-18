@@ -9,7 +9,7 @@ function App() {
   return (
     <AnimatePresence exitBeforeEnter>
       <ToastContainer />
-      <div className="w-screen h-auto min-h-[100vh] flex flex-col bg-primary overflow-x-hidden">
+      <div className="w-screen h-auto min-h-[100vh] flex flex-col overflow-x-hidden">
         {/* Navbar */}
         <Navbar />
         <Showcase />
