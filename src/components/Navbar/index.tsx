@@ -23,7 +23,7 @@ const Navbar = () => {
           >
             {/* <img src={Logo} alt="Logo" className="md:w-6 lg:w-8 object-cover" /> */}
             <p className="text-headerColor font-brand text-xl lg:text-2xl font-bold">
-              i<span className='text-blue-800'>Bookings</span>
+              iBookings
             </p>
           </motion.div>
         </Link>
